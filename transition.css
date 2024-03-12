@@ -1,0 +1,53 @@
+.main{
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to left, red,orange,yellow,green,blue,indigo,violet);
+    transform: scaleX(2);
+}
+h1{
+    text-shadow: 2px 2px 4px black;
+}
+.rotate{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+    transform: rotate(20deg);
+}
+.as{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+    transform: skewX(20deg);
+}
+.divs{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+    transform: rotateX(180deg);
+}
+.transiton{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s,height 4s;
+    transition-delay: 1s;
+    transition-timing-function: ease-out;
+}
+.transiton:hover{
+    width: 300px;
+    height: 300px;
+}
+.tt{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 2s, transform 2s;
+}
+.tt:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
